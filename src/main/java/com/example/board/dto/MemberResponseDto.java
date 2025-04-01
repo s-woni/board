@@ -3,17 +3,14 @@ package com.example.board.dto;
 import lombok.Getter;
 
 @Getter
-public class SignUpRequestDto {
+public class MemberResponseDto {
 
     private final String username;
 
-    private final String password;
-
     private final Integer age;
 
-    public SignUpRequestDto(String username, String password, Integer age) {
+    public MemberResponseDto(String username, Integer age) {
         this.username = username;
-        this.password = password;
         this.age = age;
     }
 }

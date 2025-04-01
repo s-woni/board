@@ -3,7 +3,7 @@ package com.example.board.dto;
 import lombok.Getter;
 
 @Getter
-public class signUpResponseDto {
+public class SignUpResponseDto {
 
     private final Long id;
 
@@ -11,7 +11,7 @@ public class signUpResponseDto {
 
     private final Integer age;
 
-    public signUpResponseDto(Long id, String username, Integer age) {
+    public SignUpResponseDto(Long id, String username, Integer age) {
         this.id = id;
         this.username = username;
         this.age = age;
